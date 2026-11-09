@@ -1,7 +1,8 @@
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <h1>Hello MOBPROG-IT252!</h1>
+      <h3>My Name is Bludylan Cyrus A. Pizarra</h3>
     </div>
   );
 }
