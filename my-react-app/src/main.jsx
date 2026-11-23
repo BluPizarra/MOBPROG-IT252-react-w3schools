@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+
+function Car() {
+  const brand = "Ford";
+  const model = "Mustang";
+  return (
+    <>
+      <h2>My Car</h2>
+      <p>It is a {brand} {model}.</p>
+    </>
+  );
+}
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <Car />
 )
